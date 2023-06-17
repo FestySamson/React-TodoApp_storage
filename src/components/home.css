@@ -1,0 +1,24 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.home img{
+    max-width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.go{
+    margin-top: 40px;
+    background: var(--action-color);
+   width: 80%;
+   text-align: center;
+   padding: 10px 0;
+   color: #fff;
+   font-family: var(--font-familyone);
+   font-size: 17px;
+   font-weight: 600;
+}
